@@ -1,0 +1,39 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-image: url("./imagenes/fondomoto2.jpg");
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+  max-width: 1000px;
+  font-size: 1.4em;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 25px 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-principal{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
